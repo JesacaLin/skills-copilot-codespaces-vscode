@@ -14,5 +14,3 @@ mongoose.connect('mongodb://localhost:27017/comments');
 //create schema
 const commentSchema = new mongoose.Schema({
   text: String,
-
-});
